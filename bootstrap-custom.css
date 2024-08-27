@@ -1,0 +1,63 @@
+/* bootstrap-custom.css */
+/* This stylesheet will build upon Bootstrap's default styles, adding custom touches such as more refined typography, subtle animations, and enhanced component styling. This file assumes it's placed in the same directory as the Bootstrap source directory. */
+
+/* Typography enhancements */
+h2.text-primary {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+p.text-muted {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Customizing Bootstrap's list-group */
+.list-group-item {
+    background-color: #f8f9fa;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.list-group-item:hover {
+    background-color: #e9ecef;
+}
+
+/* Adding a subtle box-shadow to images */
+img.img-fluid.rounded {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+img.img-fluid.rounded:hover {
+    transform: scale(1.05);
+}
+
+/* Custom alert styling */
+.alert-dismissible {
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.alert-dismissible .btn-close {
+    font-size: 1.2rem;
+    opacity: 0.7;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.alert-dismissible .btn-close:hover {
+    opacity: 1;
+}
+
+/* Custom container styling */
+.container.py-5 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #f1f1f1;
+    border-radius: 0.5rem;
+}
+

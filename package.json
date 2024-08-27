@@ -1,0 +1,11 @@
+{
+  "name": "localmechanicsite",
+  "version": "1.0.0",
+  "description": "Drafting several variants of a website (Hosted on Netlify) - for locals to Cincinnati to get mechanical work down.",
+  "main": "/storage/emulated/0/localmechanicsite/localmech.bootstrap/bootsmech.html",
+  "scripts": {
+    "test": "\": \"http-server /storage/emulated/0/localmechanicsite/localmech.bootstrap -o bootsmech.html\""
+  },
+  "author": "Tony",
+  "license": "MIT"
+}
